@@ -19,7 +19,7 @@ The electrodes measure the electrical potential in that point with respect to a 
 ![eeg](readme_resources/eeg.png)
 
 <br>
-EEG data is usually prone to noise. Due to this fact intracranial electroencephalography (EEG)
+EEG data is usually prone to noise. Due to this fact intracranial electroencephalography (iEEG)
 was also developed in which the electrodes are directly placed on the subject's cortex.
 
 <a name="technical"></a>
