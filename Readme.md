@@ -6,9 +6,9 @@
 - **[EEG waves](#eeg_waves)**
 - **[Bibliography](#bibliography)**
 
+<a name="introduction"></a>
 ## Introduction
 
-<a name="introduction"></a>
 Electroencephalography (EEG) is a method of recording the brain activity at the cortex level.
 <br>
 It is a non-invasive method consisting of placing electrodes in different places of the subject scalp.
@@ -22,8 +22,8 @@ The electrodes measure the electrical potential in that point with respect to a 
 EEG data is usually prone to noise. Due to this fact intracranial electroencephalography (EEG)
 was also developed in which the electrodes are directly placed on the subject's cortex.
 
-## Technical
 <a name="technical"></a>
+## Technical
 
 Fast Fourier Transform(FFT) algorithm is a widely known algorithm used for transitioning information back and forth 
 between time and frequency domains.
@@ -50,14 +50,16 @@ other `signal`
 ![back_in_time.png](readme_resources/back_in_time.png)
 <br><br>
 
-## Dependencies
 <a name="dependencies"></a>
+## Dependencies
+
 1) **bioread** for reading input iEEG file 
 2) **numpy** for some operations
 3) **matplotlib** for plotting information
 
-## EEG waves
 <a name="eeg_waves"></a>
+## EEG waves
+
 For this project we are using a real data recorded from a mouse cortex using intracranial EEG.
 <br>
 We process the signal from the frontal lobe.
@@ -87,8 +89,9 @@ And then, one by one we filter out the medicine related signals and compute the 
 ![high_gamma.png](readme_resources/high_gamma.png)
 <br><br>
 
-## Bibliography
 <a name="bibliography"></a>
+## Bibliography
+
 1) `https://en.wikipedia.org/wiki/Electroencephalography`
 <br><br>
 2) `https://en.wikipedia.org/wiki/Fast_Fourier_transform`
